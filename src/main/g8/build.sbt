@@ -1,5 +1,5 @@
 
-val ZioVersion      = "1.0-RC5"
+val ZioVersion      = "1.0.0-RC8-6"
 val CatsVersion     = "2.0.0-M1"
 val CatsEffVersion  = "2.0.0-M3"
 
@@ -14,7 +14,7 @@ lazy val root = (project in file("."))
     scalaVersion := "2.12.8",
     maxErrors := 3,
     libraryDependencies ++= Seq(
-      "org.scalaz"    %% "scalaz-zio"   % ZioVersion, 
+      "dev.zio"       %% "zio"          % ZioVersion, 
       "org.typelevel" %% "cats-core"    % CatsVersion,
       //"org.typelevel" %% "cats-effect"  % CatsEffVersion,
     )

@@ -1,5 +1,5 @@
 
-val ZioVersion      = "1.0.0-RC8-6"
+val ZioVersion      = "1.0.0-RC8-12"
 val CatsVersion     = "2.0.0-M1"
 val CatsEffVersion  = "2.0.0-M3"
 

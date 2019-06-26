@@ -1,6 +1,6 @@
 package hello
 
-import scalaz.zio.{App, UIO, Task}
+import zio.{App, UIO, Task}
 import scala.collection.parallel.Task
 //import scalaz.zio.console.{putStrLn}
 
